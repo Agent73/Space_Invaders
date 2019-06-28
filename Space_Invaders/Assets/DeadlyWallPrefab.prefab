@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 650282179601211978}
   - component: {fileID: 650282179601211979}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: DeadlyWallPrefab
   m_TagString: DeadlyWalls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
