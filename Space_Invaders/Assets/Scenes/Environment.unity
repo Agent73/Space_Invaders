@@ -592,6 +592,8 @@ GameObject:
   - component: {fileID: 1534257332}
   - component: {fileID: 1534257331}
   - component: {fileID: 1534257330}
+  - component: {fileID: 1534257335}
+  - component: {fileID: 1534257336}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -611,7 +613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc4d94e572803a142a7ab9fcefc2c40d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 10
 --- !u!65 &1534257331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -639,7 +641,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!212 &1534257333
 SpriteRenderer:
@@ -703,6 +705,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1534257335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534257329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e752aa1e85dfced48869cf1199ee96c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: b53a8f49c83b6914fae5c22d5f3ea414, type: 3}
+  fire: 32
+--- !u!114 &1534257336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534257329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc4d94e572803a142a7ab9fcefc2c40d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
 --- !u!1 &1535869168
 GameObject:
   m_ObjectHideFlags: 0

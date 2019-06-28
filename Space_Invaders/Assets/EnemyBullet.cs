@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
-    public Gameobject bullet;
-    public KeyCode fire = KeyCode.space;
+    public GameObject bullet;
+    public KeyCode fire = KeyCode.Space;
 
     // Start is called before the first frame update
     void Start()
