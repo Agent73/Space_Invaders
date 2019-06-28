@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DeadlyWalls
   - walls
+  - Bullet
   layers:
   - Default
   - TransparentFX
