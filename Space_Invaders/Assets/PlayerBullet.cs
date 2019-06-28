@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBullet : MonoBehaviour
+public class PlayerBullet : MonoBehaviour
 {
     public Gameobject bullet;
     public KeyCode fire = KeyCode.space;
