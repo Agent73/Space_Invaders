@@ -4,23 +4,48 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    Rigidbody rb;
-    public float speed = 20;
+    public float speed = 1;
+    public float FramesPerSecond;
+    float timeUntilChange;
+    float SecondsPerFrame;
+    
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        UpdateFramesPerSecond();
+        timeUntilChange = SecondsPerFrame;
+        
+    }
+
+    void Move()
+    {
+        transform.localPosition += Vector3.right * speed;
     }
 
     void Update()
     {
-        rb.velocity = new Vector3(speed, rb.velocity.y, 0);
+        UpdateFramesPerSecond();
+        timeUntilChange -= Time.deltaTime;
+        if (FramesPerSecond > 0 && timeUntilChange < 0)
+        {
+            Move();
+            timeUntilChange = SecondsPerFrame;
+        }
     }
-
-    private void OnDrawGizmos()
+    void UpdateFramesPerSecond()
     {
-        if (rb)
-            Gizmos.DrawLine(transform.position, transform.position + rb.velocity);
+        if (FramesPerSecond == 0)
+            FramesPerSecond = 0.0001f;
+        SecondsPerFrame = 1f / FramesPerSecond;
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.GetComponent<EnemyTrigger>())
+        {
+            speed *= -1;
+            Move();
+            transform.position += Vector3.down * 1;
+        }
+    }
 }
