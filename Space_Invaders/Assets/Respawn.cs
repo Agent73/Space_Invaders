@@ -10,14 +10,15 @@ public class Respawn : MonoBehaviour
 {
     public Vector3 respawn;
     int lives = 73;
-    public void update()
+
+    public void Update()
     {
         if (transform.childCount == 0)
         {
-            Respawn();
+            Fox();
         }
     }
-    public void Respawn()
+    public void Fox()
     {
         transform.position = respawn;
     }
