@@ -43,24 +43,35 @@ public class PlayerControl : MonoBehaviour
         }
         rb.velocity = direction;
     }
+
+    void Die()
+    {
+        GetComponent<AudioSource>().Play();
+        Respawn();
+        lives--;
+        if (lives < 1)
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene("TitleScreen");
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.transform.GetComponent<EnemyBullet>())
         {
-            GetComponent<AudioSource>().Play();
-            Respawn();
-            lives--;
-            if (lives < 1)
-            {
-                Destroy(gameObject);
-                SceneManager.LoadScene("TitleScreen");
-            }
+            Die();
         }
-
+        else if (collision.transform.GetComponent<InvaderAI>())
+        {
+            Die();
+        }
     }
 
-    private void Respawn()
+
+
+    void Respawn()
     {
-        throw new NotImplementedException();
+        
     }
 }
