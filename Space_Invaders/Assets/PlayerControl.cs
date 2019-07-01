@@ -47,6 +47,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (collision.transform.GetComponent<EnemyBullet>())
         {
+            GetComponent<AudioSource>().Play();
             Respawn();
             lives--;
             if (lives < 1)
