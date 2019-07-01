@@ -19,9 +19,9 @@ public class TitleScreenTransfer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            SceneManager.LoadScene("Environment");
-        }
+    }
+    void ClickButton()
+    {
+        SceneManager.LoadScene("Environment");
     }
 }
