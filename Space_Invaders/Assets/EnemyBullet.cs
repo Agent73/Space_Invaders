@@ -1,11 +1,14 @@
-﻿using System.Collections;
+﻿//EnemyBullet.cs
+//6-28-19
+//OmarreeKimbrough
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
     public GameObject bullet;
-    public KeyCode fire = KeyCode.Space;
+    float lifetime = 7;
 
     // Start is called before the first frame update
     void Start()
@@ -16,11 +19,9 @@ public class EnemyBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(fire))
-        {
-            GameObject newBullet = Instantiate(bullet);
-            newBullet.transform.position = transform.position;
-        }
-       
+        lifetime -= Time.deltaTime;
+        if (lifetime < 0)
+            Destroy(gameObject);
+        transform.position += Vector3.up;
     }
 }
