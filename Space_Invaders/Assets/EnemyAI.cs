@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿//EnemyAI
+//7-1-19
+//OmarreeKimbrough
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
