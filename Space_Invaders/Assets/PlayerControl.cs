@@ -10,8 +10,9 @@ using UnityEngine.SceneManagement;
 public class PlayerControl : MonoBehaviour
 {
     Rigidbody rb;
-
+    public Vector3 respawn;
     public float speed;
+    int lives = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -40,5 +41,18 @@ public class PlayerControl : MonoBehaviour
 
         }
         rb.velocity = direction;
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.GetComponent<EnemyBullet>())
+        {
+            Respawn();
+            lives--;
+            if (lives < 1)
+            {
+                Destroy(gameObject);
+            }
+        }
+
     }
 }
