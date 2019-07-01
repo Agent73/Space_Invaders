@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BlinkAnimation : MonoBehaviour
+public class BlinkingAnimation : MonoBehaviour
 {
     Text bl;
     float timeUntilChange;
