@@ -8,7 +8,7 @@ public class EnemyAI : MonoBehaviour
     public float FramesPerSecond;
     float timeUntilChange;
     float SecondsPerFrame;
-    
+    bool movedDown;
 
     void Start()
     {
@@ -31,6 +31,7 @@ public class EnemyAI : MonoBehaviour
             Move();
             timeUntilChange = SecondsPerFrame;
         }
+        movedDown = false;
     }
     void UpdateFramesPerSecond()
     {
@@ -41,20 +42,12 @@ public class EnemyAI : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<EnemyTrigger>())
+        if (other.GetComponent<EnemyTrigger>() && !movedDown)
         {
+            movedDown = true;
             speed *= -1;
             Move();
             transform.position += Vector3.down * 1;
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.GetComponent<BulletLife>())
-        {
-            Score.AddScore(100);
-            Destroy(gameObject);
         }
     }
 }

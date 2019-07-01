@@ -29,7 +29,7 @@ public class MyPhysics : MonoBehaviour
     {
         int count = 0;
         Vector2 sum = new Vector2(0, 0);
-        while (count < collision.contactCount);
+        while (count < collision.contactCount)
         {
             sum += collision.contacts[count].point;
             count += 1;

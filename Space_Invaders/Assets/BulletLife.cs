@@ -8,10 +8,13 @@ using UnityEngine;
 public class BulletLife : MonoBehaviour
 {
     float lifetime = 5;
+    Rigidbody rb;
+    public float speed = 1;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -20,7 +23,7 @@ public class BulletLife : MonoBehaviour
         lifetime -= Time.deltaTime;
         if (lifetime < 0)
             Destroy(gameObject);
-        transform.position += Vector3.up;
+        rb.velocity = Vector3.up * speed;
     }
     private void OnCollisionEnter(Collision collision)
     {
