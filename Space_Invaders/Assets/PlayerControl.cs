@@ -6,6 +6,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
@@ -13,12 +14,15 @@ public class PlayerControl : MonoBehaviour
     Rigidbody rb;
     public Vector3 respawn;
     public float speed;
-    int lives = 3;
+    public static int lives;
+    Text text;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        text = GetComponent<Text>();
+        lives = 3;
     }
 
     // Update is called once per frame
@@ -42,6 +46,11 @@ public class PlayerControl : MonoBehaviour
 
         }
         rb.velocity = direction;
+
+        if (text)
+        {
+            text.text = "Lives: " + lives.ToString();
+        }
     }
 
     void Die()
@@ -51,18 +60,17 @@ public class PlayerControl : MonoBehaviour
         lives--;
         if (lives < 1)
         {
-            Destroy(gameObject);
             SceneManager.LoadScene("TitleScreen");
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.GetComponent<EnemyBullet>())
+        if (collision.gameObject.GetComponent<EnemyBullet>())
         {
             Die();
         }
-        else if (collision.transform.GetComponent<InvaderAI>())
+        else if (collision.gameObject.GetComponent<InvaderAI>())
         {
             Die();
         }
