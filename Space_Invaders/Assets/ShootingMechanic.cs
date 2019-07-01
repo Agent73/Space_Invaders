@@ -3,6 +3,7 @@
 //Owner: Siddharth
 
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,9 +26,14 @@ public class ShootingMechanic : MonoBehaviour
     {
         if (Input.GetKeyDown(fire))
         {
-            GameObject newBullet = Instantiate
+          
 
         }
 
+    }
+
+    private GameObject Instantiate(object v, object original)
+    {
+        throw new NotImplementedException();
     }
 }
