@@ -52,6 +52,7 @@ public class PlayerControl : MonoBehaviour
             if (lives < 1)
             {
                 Destroy(gameObject);
+                SceneManager.LoadScene("TitleScreen");
             }
         }
 
