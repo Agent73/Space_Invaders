@@ -23,6 +23,7 @@ public class PlayerBullet : MonoBehaviour
         {
             GameObject newBullet = Instantiate(bullet);
             newBullet.transform.position = transform.position + Vector3.up * transform.localScale.y * .5f;
+            GetComponent<AudioSource>().Play();
         }
        
     }
