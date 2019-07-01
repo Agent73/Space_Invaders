@@ -25,7 +25,7 @@ public class ShootingMechanic : MonoBehaviour
     {
         if (Input.GetKeyDown(fire))
         {
-            GameObject newBullet = Instantiate
+      
 
         }
 
