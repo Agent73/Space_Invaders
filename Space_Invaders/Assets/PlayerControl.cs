@@ -2,6 +2,7 @@
 //Created: 6/28/2019
 //Owner: Siddharth 
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -54,5 +55,10 @@ public class PlayerControl : MonoBehaviour
             }
         }
 
+    }
+
+    private void Respawn()
+    {
+        throw new NotImplementedException();
     }
 }

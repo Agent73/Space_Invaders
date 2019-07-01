@@ -25,5 +25,9 @@ public class BulletLife : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Destroy(gameObject);
+        if (collision.transform.GetComponent<EnemyAI>())
+        {
+            Destroy(gameObject);
+        }
     }
 }
