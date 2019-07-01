@@ -17,4 +17,8 @@ public class Respawn : MonoBehaviour
             Respawn();
         }
     }
+    public void Respawn()
+    {
+        transform.position = respawn;
+    }
 }
