@@ -14,7 +14,7 @@ public class Respawn : MonoBehaviour
     {
         if (transform.childCount == 0)
         {
-
+            Respawn();
         }
     }
 }
