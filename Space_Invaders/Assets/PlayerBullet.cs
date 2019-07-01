@@ -22,7 +22,7 @@ public class PlayerBullet : MonoBehaviour
         if (Input.GetKeyDown(fire))
         {
             GameObject newBullet = Instantiate(bullet);
-            newBullet.transform.position = transform.position;
+            newBullet.transform.position = transform.position + Vector3.up * transform.localScale.y * .5f;
         }
        
     }

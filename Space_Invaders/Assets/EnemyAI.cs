@@ -48,4 +48,13 @@ public class EnemyAI : MonoBehaviour
             transform.position += Vector3.down * 1;
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.GetComponent<BulletLife>())
+        {
+            Score.AddScore(100);
+            Destroy(gameObject);
+        }
+    }
 }

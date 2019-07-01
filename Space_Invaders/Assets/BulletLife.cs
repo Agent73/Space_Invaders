@@ -22,4 +22,8 @@ public class BulletLife : MonoBehaviour
             Destroy(gameObject);
         transform.position += Vector3.up;
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
+    }
 }
