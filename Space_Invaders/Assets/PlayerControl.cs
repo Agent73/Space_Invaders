@@ -60,7 +60,7 @@ public class PlayerControl : MonoBehaviour
         lives--;
         if (lives < 1)
         {
-            SceneManager.LoadScene("TitleScreen");
+            SceneManager.LoadScene("DeathScreen");
         }
     }
 
