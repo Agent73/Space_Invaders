@@ -152,9 +152,10 @@ GameObject:
   - component: {fileID: 21235393}
   - component: {fileID: 21235391}
   - component: {fileID: 21235392}
+  - component: {fileID: 21235397}
   m_Layer: 0
   m_Name: Manta Ray (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -278,6 +279,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &21235397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21235390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &33384260
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,9 +306,10 @@ GameObject:
   - component: {fileID: 33384262}
   - component: {fileID: 33384263}
   - component: {fileID: 33384261}
+  - component: {fileID: 33384267}
   m_Layer: 0
   m_Name: Squid (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,6 +433,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &33384267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33384260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &105595995 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892375714334434, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -450,9 +478,10 @@ GameObject:
   - component: {fileID: 115275217}
   - component: {fileID: 115275215}
   - component: {fileID: 115275216}
+  - component: {fileID: 115275221}
   m_Layer: 0
   m_Name: Jelly Fish (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -576,6 +605,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &115275221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115275214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &169268047
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,9 +632,10 @@ GameObject:
   - component: {fileID: 169268050}
   - component: {fileID: 169268048}
   - component: {fileID: 169268049}
+  - component: {fileID: 169268054}
   m_Layer: 0
   m_Name: Jelly Fish (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -716,6 +759,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &169268054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169268047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &228798419 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892377348402969, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -748,9 +804,10 @@ GameObject:
   - component: {fileID: 249004828}
   - component: {fileID: 249004826}
   - component: {fileID: 249004827}
+  - component: {fileID: 249004832}
   m_Layer: 0
   m_Name: Manta Ray (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -874,6 +931,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &249004832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249004825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &250587749
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,9 +958,10 @@ GameObject:
   - component: {fileID: 250587751}
   - component: {fileID: 250587752}
   - component: {fileID: 250587750}
+  - component: {fileID: 250587756}
   m_Layer: 0
   m_Name: Squid (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,6 +1085,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &250587756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250587749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!4 &263939183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3108200797348572285, guid: 361b4c842e5aae8408345d0b2a5d5bd7,
@@ -1141,9 +1225,10 @@ GameObject:
   - component: {fileID: 326779626}
   - component: {fileID: 326779624}
   - component: {fileID: 326779625}
+  - component: {fileID: 326779630}
   m_Layer: 0
   m_Name: Manta Ray (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1267,6 +1352,38 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &326779630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326779623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
+--- !u!1 &424524216 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3108200797348572287, guid: 361b4c842e5aae8408345d0b2a5d5bd7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3108200797594667026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &424524217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424524216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &438910631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,9 +1398,10 @@ GameObject:
   - component: {fileID: 438910634}
   - component: {fileID: 438910632}
   - component: {fileID: 438910633}
+  - component: {fileID: 438910638}
   m_Layer: 0
   m_Name: Jelly Fish (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1407,6 +1525,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &438910638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438910631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &488505379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892376195990234, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -1457,9 +1588,10 @@ GameObject:
   - component: {fileID: 539567219}
   - component: {fileID: 539567220}
   - component: {fileID: 539567218}
+  - component: {fileID: 539567224}
   m_Layer: 0
   m_Name: Squid (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1583,6 +1715,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &539567224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539567217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &557288218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,9 +1846,10 @@ GameObject:
   - component: {fileID: 618004139}
   - component: {fileID: 618004137}
   - component: {fileID: 618004138}
+  - component: {fileID: 618004143}
   m_Layer: 0
   m_Name: Manta Ray (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1827,6 +1973,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &618004143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618004136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &630181202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892376020108456, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -1859,9 +2018,10 @@ GameObject:
   - component: {fileID: 640054650}
   - component: {fileID: 640054648}
   - component: {fileID: 640054649}
+  - component: {fileID: 640054654}
   m_Layer: 0
   m_Name: Manta Ray (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1985,6 +2145,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &640054654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640054647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &689053623 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892375518815489, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -2017,9 +2190,10 @@ GameObject:
   - component: {fileID: 782511714}
   - component: {fileID: 782511712}
   - component: {fileID: 782511713}
+  - component: {fileID: 782511718}
   m_Layer: 0
   m_Name: Jelly Fish (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2143,6 +2317,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &782511718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782511711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &784432698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,9 +2344,10 @@ GameObject:
   - component: {fileID: 784432701}
   - component: {fileID: 784432699}
   - component: {fileID: 784432700}
+  - component: {fileID: 784432705}
   m_Layer: 0
   m_Name: Jelly Fish (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2283,6 +2471,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &784432705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784432698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &796985735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,9 +2498,10 @@ GameObject:
   - component: {fileID: 796985738}
   - component: {fileID: 796985736}
   - component: {fileID: 796985737}
+  - component: {fileID: 796985742}
   m_Layer: 0
   m_Name: Manta Ray (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2423,6 +2625,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &796985742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796985735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &804825907
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,9 +2652,10 @@ GameObject:
   - component: {fileID: 804825910}
   - component: {fileID: 804825908}
   - component: {fileID: 804825909}
+  - component: {fileID: 804825914}
   m_Layer: 0
   m_Name: Manta Ray (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2563,6 +2779,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &804825914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804825907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &837770756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892376032338016, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -2616,7 +2845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -166.5, y: 254}
+  m_AnchoredPosition: {x: -92, y: 170}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853568730
@@ -2723,9 +2952,10 @@ GameObject:
   - component: {fileID: 881936260}
   - component: {fileID: 881936261}
   - component: {fileID: 881936259}
+  - component: {fileID: 881936265}
   m_Layer: 0
   m_Name: Squid (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2849,6 +3079,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &881936265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881936258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &906561019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2863,9 +3106,10 @@ GameObject:
   - component: {fileID: 906561021}
   - component: {fileID: 906561022}
   - component: {fileID: 906561020}
+  - component: {fileID: 906561026}
   m_Layer: 0
   m_Name: Squid (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2989,6 +3233,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906561026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906561019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &916973395
 GameObject:
   m_ObjectHideFlags: 0
@@ -3003,9 +3260,10 @@ GameObject:
   - component: {fileID: 916973397}
   - component: {fileID: 916973398}
   - component: {fileID: 916973396}
+  - component: {fileID: 916973402}
   m_Layer: 0
   m_Name: Squid (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3129,6 +3387,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &916973402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916973395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &933198951
 GameObject:
   m_ObjectHideFlags: 0
@@ -3143,9 +3414,10 @@ GameObject:
   - component: {fileID: 933198954}
   - component: {fileID: 933198952}
   - component: {fileID: 933198953}
+  - component: {fileID: 933198958}
   m_Layer: 0
   m_Name: Manta Ray (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3269,6 +3541,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933198958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933198951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &984696613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,9 +3838,10 @@ GameObject:
   - component: {fileID: 1179966453}
   - component: {fileID: 1179966451}
   - component: {fileID: 1179966452}
+  - component: {fileID: 1179966457}
   m_Layer: 0
   m_Name: Jelly Fish (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3679,6 +3965,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.4820001}
+--- !u!114 &1179966457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179966450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1205560457
 GameObject:
   m_ObjectHideFlags: 0
@@ -3693,9 +3992,10 @@ GameObject:
   - component: {fileID: 1205560460}
   - component: {fileID: 1205560458}
   - component: {fileID: 1205560459}
+  - component: {fileID: 1205560464}
   m_Layer: 0
   m_Name: Manta Ray (14)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3819,6 +4119,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1205560464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205560457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1208972414
 GameObject:
   m_ObjectHideFlags: 0
@@ -3986,9 +4299,10 @@ GameObject:
   - component: {fileID: 1291731271}
   - component: {fileID: 1291731269}
   - component: {fileID: 1291731270}
+  - component: {fileID: 1291731275}
   m_Layer: 0
   m_Name: Jelly Fish (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4112,6 +4426,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1291731275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291731268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1292232187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,9 +4485,10 @@ GameObject:
   - component: {fileID: 1303032167}
   - component: {fileID: 1303032165}
   - component: {fileID: 1303032166}
+  - component: {fileID: 1303032171}
   m_Layer: 0
   m_Name: Jelly Fish (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4284,6 +4612,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1303032171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303032164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1334026187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4298,9 +4639,10 @@ GameObject:
   - component: {fileID: 1334026190}
   - component: {fileID: 1334026188}
   - component: {fileID: 1334026189}
+  - component: {fileID: 1334026194}
   m_Layer: 0
   m_Name: Jelly Fish (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4424,6 +4766,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1334026194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334026187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1357639959
 GameObject:
   m_ObjectHideFlags: 0
@@ -4438,9 +4793,10 @@ GameObject:
   - component: {fileID: 1357639962}
   - component: {fileID: 1357639960}
   - component: {fileID: 1357639961}
+  - component: {fileID: 1357639966}
   m_Layer: 0
   m_Name: Jelly Fish (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4564,6 +4920,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1357639966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357639959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1403192388 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892376350699356, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -4596,9 +4965,10 @@ GameObject:
   - component: {fileID: 1447714763}
   - component: {fileID: 1447714761}
   - component: {fileID: 1447714762}
+  - component: {fileID: 1447714767}
   m_Layer: 0
   m_Name: Jelly Fish (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4722,6 +5092,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1447714767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447714760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1460155872
 GameObject:
   m_ObjectHideFlags: 0
@@ -4877,9 +5260,10 @@ GameObject:
   - component: {fileID: 1506065849}
   - component: {fileID: 1506065847}
   - component: {fileID: 1506065848}
+  - component: {fileID: 1506065853}
   m_Layer: 0
   m_Name: Manta Ray (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5003,6 +5387,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1506065853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506065846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1509420957
 GameObject:
   m_ObjectHideFlags: 0
@@ -5017,9 +5414,10 @@ GameObject:
   - component: {fileID: 1509420960}
   - component: {fileID: 1509420958}
   - component: {fileID: 1509420959}
+  - component: {fileID: 1509420964}
   m_Layer: 0
   m_Name: Jelly Fish (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5143,6 +5541,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1509420964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509420957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1530305958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892376223613056, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -5613,9 +6024,10 @@ GameObject:
   - component: {fileID: 1559127414}
   - component: {fileID: 1559127412}
   - component: {fileID: 1559127413}
+  - component: {fileID: 1559127418}
   m_Layer: 0
   m_Name: Jelly Fish (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5739,6 +6151,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1559127418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559127411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1583275353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892375966390879, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -5789,6 +6214,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1616777527 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4017102408636614927, guid: 8cad34a1ec508564f98457cf1ffb6999,
+    type: 3}
+  m_PrefabInstance: {fileID: 4017102407254842888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1616777528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616777527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1637621623
 GameObject:
   m_ObjectHideFlags: 0
@@ -5803,9 +6247,10 @@ GameObject:
   - component: {fileID: 1637621626}
   - component: {fileID: 1637621624}
   - component: {fileID: 1637621625}
+  - component: {fileID: 1637621630}
   m_Layer: 0
   m_Name: Manta Ray (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5929,6 +6374,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637621630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637621623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1691074689 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892376606234071, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -5961,9 +6419,10 @@ GameObject:
   - component: {fileID: 1693983204}
   - component: {fileID: 1693983205}
   - component: {fileID: 1693983203}
+  - component: {fileID: 1693983209}
   m_Layer: 0
   m_Name: Squid (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6087,6 +6546,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1693983209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693983202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1696772819
 GameObject:
   m_ObjectHideFlags: 0
@@ -6346,9 +6818,10 @@ GameObject:
   - component: {fileID: 1799523227}
   - component: {fileID: 1799523225}
   - component: {fileID: 1799523226}
+  - component: {fileID: 1799523231}
   m_Layer: 0
   m_Name: Jelly Fish (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6472,6 +6945,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1799523231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799523224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1834782490
 GameObject:
   m_ObjectHideFlags: 0
@@ -6585,9 +7071,10 @@ GameObject:
   - component: {fileID: 1846828748}
   - component: {fileID: 1846828746}
   - component: {fileID: 1846828747}
+  - component: {fileID: 1846828752}
   m_Layer: 0
   m_Name: Jelly Fish (14)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6711,6 +7198,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1846828752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846828745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1875024058
 GameObject:
   m_ObjectHideFlags: 0
@@ -6725,9 +7225,10 @@ GameObject:
   - component: {fileID: 1875024061}
   - component: {fileID: 1875024059}
   - component: {fileID: 1875024060}
+  - component: {fileID: 1875024065}
   m_Layer: 0
   m_Name: Manta Ray (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6851,6 +7352,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1875024065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875024058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1907609472
 GameObject:
   m_ObjectHideFlags: 0
@@ -6865,9 +7379,10 @@ GameObject:
   - component: {fileID: 1907609475}
   - component: {fileID: 1907609473}
   - component: {fileID: 1907609474}
+  - component: {fileID: 1907609479}
   m_Layer: 0
   m_Name: Manta Ray (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6991,6 +7506,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1907609479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907609472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &1995542388 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6214892375959560567, guid: 78a9b2f2eff0d1145a07f7bdd680a466,
@@ -7029,9 +7557,10 @@ GameObject:
   - component: {fileID: 2013797705}
   - component: {fileID: 2013797703}
   - component: {fileID: 2013797704}
+  - component: {fileID: 2013797709}
   m_Layer: 0
   m_Name: Manta Ray (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7155,6 +7684,19 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2013797709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013797702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &2030756992
 GameObject:
   m_ObjectHideFlags: 0
@@ -7169,9 +7711,10 @@ GameObject:
   - component: {fileID: 2030756995}
   - component: {fileID: 2030756993}
   - component: {fileID: 2030756994}
+  - component: {fileID: 2030756999}
   m_Layer: 0
   m_Name: Manta Ray (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7295,6 +7838,38 @@ Transform:
   m_Father: {fileID: 1696772821}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2030756999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030756992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
+--- !u!1 &2086942828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5244819303377983004, guid: 0bb4d9654959b0b4e9f7a6fc8ccbd134,
+    type: 3}
+  m_PrefabInstance: {fileID: 5244819302361820310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2086942829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086942828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5b0af8a50844cb962f8f8ab8c868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2303662920894488961, guid: f5892c8d7f5da9c4dbcb38f4b4791db3, type: 3}
 --- !u!1 &2102035500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2303662920894488961, guid: b53a8f49c83b6914fae5c22d5f3ea414,
@@ -7483,6 +8058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Squid
       objectReference: {fileID: 0}
+    - target: {fileID: 3108200797348572287, guid: 361b4c842e5aae8408345d0b2a5d5bd7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 3108200797348572285, guid: 361b4c842e5aae8408345d0b2a5d5bd7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7567,6 +8147,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jelly Fish
       objectReference: {fileID: 0}
+    - target: {fileID: 4017102408636614927, guid: 8cad34a1ec508564f98457cf1ffb6999,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4017102408636614913, guid: 8cad34a1ec508564f98457cf1ffb6999,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7650,6 +8235,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manta Ray
+      objectReference: {fileID: 0}
+    - target: {fileID: 5244819303377983004, guid: 0bb4d9654959b0b4e9f7a6fc8ccbd134,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5244819303377983002, guid: 0bb4d9654959b0b4e9f7a6fc8ccbd134,
         type: 3}
