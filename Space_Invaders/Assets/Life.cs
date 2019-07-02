@@ -7,31 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class Life : MonoBehaviour
 {
-    public static int lives;
-    Text text;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        lives = 3;
-    }
+    public Text text;
 
     // Update is called once per frame
     void Update()
     {
         if (text)
         {
-            text.text = "Lives: " + lives.ToString();
-        };
-
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.GetComponent<EnemyBullet>())
-        {
-            lives--;
-
+            text.text = "Lives: " + PlayerControl.lives.ToString();
         }
     }
 }
