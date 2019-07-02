@@ -1,11 +1,8 @@
-﻿//BulletLife.cs
-//6-28-19
-//OmarreeKimbrough
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletLife : MonoBehaviour
+public class EnemyBullet2 : MonoBehaviour
 {
     float lifetime = 5;
     Rigidbody rb;
@@ -23,13 +20,14 @@ public class BulletLife : MonoBehaviour
         lifetime -= Time.deltaTime;
         if (lifetime < 0)
             Destroy(gameObject);
-        rb.velocity = Vector3.up * speed;
-       
+        rb.velocity = Vector3.down * speed;
+
     }
     private void OnCollisionEnter(Collision collision)
     {
         Destroy(gameObject);
-        if (collision.transform.GetComponent<EnemyAI>())
+        if (collision.transform.GetComponent<PlayerControl>()
+            || collision.transform.GetComponent<Shields>())
         {
             Destroy(gameObject);
         }

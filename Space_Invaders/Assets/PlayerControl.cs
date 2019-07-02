@@ -66,7 +66,7 @@ public class PlayerControl : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.GetComponent<EnemyBullet>())
+        if (collision.gameObject.GetComponent<EnemyBullet2>())
         {
             Die();
         }
