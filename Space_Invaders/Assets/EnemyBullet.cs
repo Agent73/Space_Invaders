@@ -19,9 +19,17 @@ public class EnemyBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lifetime -= Time.deltaTime;
-        if (lifetime < 0)
-            Destroy(gameObject);
-        transform.position += Vector3.up;
+        RaycastHit hit;
+        float x = 100 * 60;
+        float y = 35;
+        if ((!Physics.Raycast(transform.position, Vector3.down, out hit) 
+            || hit.transform.tag != "Enemy") && Random.Range(0,x) < y)
+        {
+            GameObject newBullet = Instantiate(bullet);
+            newBullet.transform.position = transform.position + Vector3.down * transform.localScale.y * .5f;
+            GetComponent<AudioSource>().Play();
+        }
     }
+    
 }
+
