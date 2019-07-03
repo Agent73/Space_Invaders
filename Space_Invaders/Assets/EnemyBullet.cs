@@ -21,7 +21,7 @@ public class EnemyBullet : MonoBehaviour
     {
         RaycastHit hit;
         float x = 100 * 60;
-        float y = 300;
+        float y = 100;
         if ((!Physics.Raycast(transform.position, Vector3.down, out hit) 
             || hit.transform.tag != "Enemy") && Random.Range(0,x) < y)
         {
