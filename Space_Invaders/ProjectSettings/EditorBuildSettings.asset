@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 4c8692728b19c9c4cb6683a1a59a0cec
+  - enabled: 1
+    path: Assets/Scenes/dpLogo.unity
+    guid: 4148cb79153dffa44819133f6f298590
   m_configObjects: {}
