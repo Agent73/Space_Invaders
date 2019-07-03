@@ -35,6 +35,7 @@ public class EnemyAI : MonoBehaviour
             timeUntilChange = SecondsPerFrame;
         }
         movedDown = false;
+        
     }
     void UpdateFramesPerSecond()
     {
