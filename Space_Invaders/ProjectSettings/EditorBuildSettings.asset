@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Enemy.unity
     guid: 28f4acd2497c35a4a94a0d3d8b98d9a9
   - enabled: 1
     path: Assets/Scenes/Environment.unity
     guid: 9343f0e6f2a018b4480fdaf47290ef20
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sid's Scene.unity
     guid: 7a1987671301d2349af66eabb1d3e43e
   - enabled: 1
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Instructions.unity
     guid: 63bb2fd9cfa45584c80b0e68817cdcb1
+  - enabled: 1
+    path: Assets/Scenes/Logo SplashScreen.unity
+    guid: d59c813927a428244877029ec1ae11dd
   m_configObjects: {}
