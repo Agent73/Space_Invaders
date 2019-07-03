@@ -12,12 +12,12 @@ public class EnemyAI : MonoBehaviour
     float timeUntilChange;
     float SecondsPerFrame;
     bool movedDown;
+    int oldScore = 0;
 
     void Start()
     {
         UpdateFramesPerSecond();
         timeUntilChange = SecondsPerFrame;
-        
     }
 
     void Move()
@@ -35,7 +35,7 @@ public class EnemyAI : MonoBehaviour
             timeUntilChange = SecondsPerFrame;
         }
         movedDown = false;
-        
+
     }
     void UpdateFramesPerSecond()
     {
