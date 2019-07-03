@@ -6232,6 +6232,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edbb8819826abbc43a3af9df7b8e4472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runOnRespawn:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  prefabPath: Enemies
 --- !u!1 &1092372135813367935
 GameObject:
   m_ObjectHideFlags: 0

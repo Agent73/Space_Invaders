@@ -14,6 +14,5 @@ public class Shields : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
 }
