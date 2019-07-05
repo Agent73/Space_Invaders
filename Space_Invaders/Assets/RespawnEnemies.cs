@@ -34,6 +34,7 @@ public class RespawnEnemies : MonoBehaviour
         Debug.Log("Setting position");
         newCopy.transform.position = spawnpoint;
         //newCopy.GetComponent<RespawnEnemies>().copyPrefab = copyPrefab;
+        newCopy.GetComponent<RespawnEnemies>().runOnRespawn = runOnRespawn;
         Debug.Log("Destroying myself");
         Destroy(gameObject);
     }
