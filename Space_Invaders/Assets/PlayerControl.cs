@@ -22,7 +22,7 @@ public class PlayerControl : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         text = GetComponent<Text>();
-        lives = 3;
+        lives = 5;
     }
 
     // Update is called once per frame
