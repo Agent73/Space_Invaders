@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class RespawnEnemies : MonoBehaviour
+public class RespawnShield : MonoBehaviour
 {
     Vector3 spawnpoint;
     //public GameObject copyPrefab;
     public delegate void RespawnDelegate();
     public UnityEvent runOnRespawn;
     public string prefabPath;
-    public bool respawnWhenAllKilled = true;
 
     private void Start()
     {
@@ -18,7 +17,7 @@ public class RespawnEnemies : MonoBehaviour
     }
     public void Update()
     {
-        if (transform.childCount == 0 && respawnWhenAllKilled)
+        if (transform.childCount == 0)
         {
             Respawn();
         }

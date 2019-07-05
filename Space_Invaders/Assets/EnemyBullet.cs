@@ -27,7 +27,8 @@ public class EnemyBullet : MonoBehaviour
         {
             GameObject newBullet = Instantiate(bullet);
             newBullet.transform.position = transform.position + Vector3.down * transform.localScale.y * .5f;
-            GetComponent<AudioSource>().Play();
+            if (GetComponent<AudioSource>())
+                GetComponent<AudioSource>().Play();
         }
     }
     
