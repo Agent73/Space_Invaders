@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 335886162950020167}
   - component: {fileID: 335886162950020164}
   - component: {fileID: 335886162950020161}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (11)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 335886163003574548}
   - component: {fileID: 335886163003574549}
   - component: {fileID: 335886163003574542}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (14)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 335886163008737125}
   - component: {fileID: 335886163008737122}
   - component: {fileID: 335886163008737055}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -477,7 +477,7 @@ GameObject:
   - component: {fileID: 335886163045009574}
   - component: {fileID: 335886163045009575}
   - component: {fileID: 335886163045009568}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (15)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 335886163092993595}
   - component: {fileID: 335886163092993597}
   - component: {fileID: 335886163092993591}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Squid (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -996,7 +996,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edbb8819826abbc43a3af9df7b8e4472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  copyPrefab: {fileID: 335886163124086029}
+  runOnRespawn:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  prefabPath: 
+  respawnWhenAllKilled: 1
 --- !u!1 &335886163171625624
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1018,7 @@ GameObject:
   - component: {fileID: 335886163171625625}
   - component: {fileID: 335886163171625622}
   - component: {fileID: 335886163171625619}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1166,7 +1172,7 @@ GameObject:
   - component: {fileID: 335886163188560735}
   - component: {fileID: 335886163188560732}
   - component: {fileID: 335886163188560729}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (13)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1320,7 +1326,7 @@ GameObject:
   - component: {fileID: 335886163316021343}
   - component: {fileID: 335886163316021340}
   - component: {fileID: 335886163316021337}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1474,7 +1480,7 @@ GameObject:
   - component: {fileID: 335886163496015515}
   - component: {fileID: 335886163496015512}
   - component: {fileID: 335886163496015509}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1628,7 +1634,7 @@ GameObject:
   - component: {fileID: 335886163517826747}
   - component: {fileID: 335886163517826744}
   - component: {fileID: 335886163517826741}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (8)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1782,7 +1788,7 @@ GameObject:
   - component: {fileID: 335886163549866002}
   - component: {fileID: 335886163549866003}
   - component: {fileID: 335886163549865996}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1936,7 +1942,7 @@ GameObject:
   - component: {fileID: 335886163670502445}
   - component: {fileID: 335886163670502442}
   - component: {fileID: 335886163670502439}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2090,7 +2096,7 @@ GameObject:
   - component: {fileID: 335886163678278484}
   - component: {fileID: 335886163678278485}
   - component: {fileID: 335886163678278478}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (14)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2244,7 +2250,7 @@ GameObject:
   - component: {fileID: 335886163713518185}
   - component: {fileID: 335886163713518182}
   - component: {fileID: 335886163713518179}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2398,7 +2404,7 @@ GameObject:
   - component: {fileID: 335886163714750528}
   - component: {fileID: 335886163714750529}
   - component: {fileID: 335886163714750586}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2552,7 +2558,7 @@ GameObject:
   - component: {fileID: 335886163765506730}
   - component: {fileID: 335886163765506731}
   - component: {fileID: 335886163765506724}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2706,7 +2712,7 @@ GameObject:
   - component: {fileID: 335886163832448710}
   - component: {fileID: 335886163832448711}
   - component: {fileID: 335886163832448704}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (10)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2860,7 +2866,7 @@ GameObject:
   - component: {fileID: 335886163939297303}
   - component: {fileID: 335886163939297300}
   - component: {fileID: 335886163939297297}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (12)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3014,7 +3020,7 @@ GameObject:
   - component: {fileID: 335886164065593829}
   - component: {fileID: 335886164065593826}
   - component: {fileID: 335886164065593759}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3168,7 +3174,7 @@ GameObject:
   - component: {fileID: 335886164072102334}
   - component: {fileID: 335886164072102335}
   - component: {fileID: 335886164072102328}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (9)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3322,7 +3328,7 @@ GameObject:
   - component: {fileID: 335886164082883818}
   - component: {fileID: 335886164082883819}
   - component: {fileID: 335886164082883812}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3476,7 +3482,7 @@ GameObject:
   - component: {fileID: 335886164086578774}
   - component: {fileID: 335886164086578775}
   - component: {fileID: 335886164086578768}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (8)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3630,7 +3636,7 @@ GameObject:
   - component: {fileID: 335886164113322922}
   - component: {fileID: 335886164113322924}
   - component: {fileID: 335886164113322918}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Squid (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3784,7 +3790,7 @@ GameObject:
   - component: {fileID: 335886164165503351}
   - component: {fileID: 335886164165503348}
   - component: {fileID: 335886164165503345}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (11)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3938,7 +3944,7 @@ GameObject:
   - component: {fileID: 335886164214817446}
   - component: {fileID: 335886164214817447}
   - component: {fileID: 335886164214817440}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (10)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4092,7 +4098,7 @@ GameObject:
   - component: {fileID: 335886164437831771}
   - component: {fileID: 335886164437831773}
   - component: {fileID: 335886164437831767}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Squid (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4246,7 +4252,7 @@ GameObject:
   - component: {fileID: 335886164474966152}
   - component: {fileID: 335886164474966154}
   - component: {fileID: 335886164474966148}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Squid (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4400,7 +4406,7 @@ GameObject:
   - component: {fileID: 335886164480315936}
   - component: {fileID: 335886164480315938}
   - component: {fileID: 335886164480315868}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Squid (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4554,7 +4560,7 @@ GameObject:
   - component: {fileID: 335886164488039350}
   - component: {fileID: 335886164488039351}
   - component: {fileID: 335886164488039344}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4708,7 +4714,7 @@ GameObject:
   - component: {fileID: 335886164547241102}
   - component: {fileID: 335886164547241103}
   - component: {fileID: 335886164547241096}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (15)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4862,7 +4868,7 @@ GameObject:
   - component: {fileID: 335886164601853124}
   - component: {fileID: 335886164601853125}
   - component: {fileID: 335886164601853182}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (9)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5016,7 +5022,7 @@ GameObject:
   - component: {fileID: 335886164604485046}
   - component: {fileID: 335886164604485048}
   - component: {fileID: 335886164604485042}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Squid (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5170,7 +5176,7 @@ GameObject:
   - component: {fileID: 335886164653584537}
   - component: {fileID: 335886164653584539}
   - component: {fileID: 335886164653584533}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Squid (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5324,7 +5330,7 @@ GameObject:
   - component: {fileID: 335886164661391713}
   - component: {fileID: 335886164661391646}
   - component: {fileID: 335886164661391643}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5478,7 +5484,7 @@ GameObject:
   - component: {fileID: 335886164735468049}
   - component: {fileID: 335886164735468046}
   - component: {fileID: 335886164735468043}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (13)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5632,7 +5638,7 @@ GameObject:
   - component: {fileID: 335886164817963382}
   - component: {fileID: 335886164817963383}
   - component: {fileID: 335886164817963376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5786,7 +5792,7 @@ GameObject:
   - component: {fileID: 335886164963759414}
   - component: {fileID: 335886164963759415}
   - component: {fileID: 335886164963759408}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray (12)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5940,7 +5946,7 @@ GameObject:
   - component: {fileID: 582194297748252438}
   - component: {fileID: 582194297748252433}
   - component: {fileID: 335886163032557286}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jelly Fish
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -6094,7 +6100,7 @@ GameObject:
   - component: {fileID: 582194299111038148}
   - component: {fileID: 582194299111038151}
   - component: {fileID: 335886163237433267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manta Ray
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -6248,7 +6254,7 @@ GameObject:
   - component: {fileID: 582194299410576313}
   - component: {fileID: 582194299410576312}
   - component: {fileID: 335886164795190887}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Squid
   m_TagString: Enemy
   m_Icon: {fileID: 0}
